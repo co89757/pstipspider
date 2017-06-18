@@ -14,7 +14,7 @@ class PsTipSpider(scrapy.Spider):
     name = "pstip"
     start_urls = [
         "https://blogs.technet.microsoft.com/heyscriptingguy/page/%d/" % page
-        for page in xrange(1, 10)
+        for page in xrange(1, 400)
     ]
 
     def parse(self, response):
