@@ -1,0 +1,6 @@
+#logs and compiled py files
+*.log
+*.pyc
+## output files
+*.csv
+*.json
