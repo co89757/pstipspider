@@ -91,4 +91,4 @@ LOG_FILE = "spider.log"
 CUTOFF_YEAR = 2010
 FEED_FORMAT = 'csv'
 FEED_EXPORT_FIELDS = ["Title", "Date", "Link", "Comments"]
-FEED_URI = "file:///home/colin/dev/python_src/pstipspider/tips.csv"
+FEED_URI = "file://powershell_tips.csv"
