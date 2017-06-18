@@ -19,4 +19,8 @@ class PstipspiderPipeline(object):
         if not ('power' in title_low):
             raise DropItem(
                 "Dropping item that has no powershell keyword in it")
+        dt = item.get("Date")
+        dt = dt.date().isoformat()
+        # scrape off time info
+        item["Date"] = dt
         return item

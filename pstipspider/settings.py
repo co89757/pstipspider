@@ -90,5 +90,5 @@ LOG_FILE = "spider.log"
 ## drop blogs that are older than 2010
 CUTOFF_YEAR = 2010
 FEED_FORMAT = 'csv'
-FEED_EXPORT_FILEDS = ["Title", "Link", "Date", "Comments"]
+FEED_EXPORT_FIELDS = ["Title", "Date", "Link", "Comments"]
 FEED_URI = "file:///home/colin/dev/python_src/pstipspider/tips.csv"
