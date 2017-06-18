@@ -18,7 +18,7 @@ class PsTipSpider(scrapy.Spider):
     ]
 
     def parse(self, response):
-        query_article = "article.tag-powershell"
+        query_article = "article"
         for sel_article in response.css(query_article):
             title = sel_article.css("h2.entry-title a::text").extract_first()
             link = sel_article.css(
